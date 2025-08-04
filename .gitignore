@@ -1,0 +1,7 @@
+.direnv
+.devenv
+.pre-commit-config.yaml
+result
+.DS_Store
+node_modules
+.env

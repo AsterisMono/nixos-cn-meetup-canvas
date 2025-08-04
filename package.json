@@ -1,0 +1,8 @@
+{
+  "name": "memobird-rev",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Noa Virellia",
+  "license": "GPL-3.0",
+  "packageManager": "pnpm@10.14.0"
+}
