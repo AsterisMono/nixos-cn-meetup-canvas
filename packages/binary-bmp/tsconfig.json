@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "incremental": false,
+    "composite": false,
+    "target": "ES2020",
+    "lib": ["ESNext"],
+    "moduleDetection": "auto",
+    "rootDir": "./src",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": false,
+    "strict": true,
+    "strictNullChecks": true,
+    "declaration": true,
+    "declarationMap": true,
+    "downlevelIteration": true,
+    "noEmit": false,
+    "noEmitOnError": true,
+    "outDir": "./dist",
+    "pretty": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "preserveSymlinks": false,
+    "skipLibCheck": true
+  },
+  "include": ["./src"],
+  "exclude": ["./dist", "node_modules"]
+}

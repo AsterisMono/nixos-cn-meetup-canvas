@@ -1,3 +1,9 @@
 packages:
-    - "packages/*"
-    - "apps/*"
+  - packages/*
+  - apps/*
+
+onlyBuiltDependencies:
+  - '@tailwindcss/oxide'
+  - canvas
+  - esbuild
+  - sharp

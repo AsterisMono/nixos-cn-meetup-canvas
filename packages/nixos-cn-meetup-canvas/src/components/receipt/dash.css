@@ -1,0 +1,22 @@
+.dashed-line-bold {
+  height: 3px;
+  background: repeating-linear-gradient(
+    to right,
+    black 0,            /* 虚线开始颜色 */
+    black 10px,         /* dash 长度 */
+    transparent 10px,   /* gap 开始 */
+    transparent 20px    /* gap 结束，总周期 20px */
+  );
+  background-position: -5px 0; /* 向左偏移 5px */
+}
+.dashed-line {
+  height: 2px;
+  background: repeating-linear-gradient(
+    to right,
+    black 0,            /* 虚线开始颜色 */
+    black 7px,         /* dash 长度 */
+    transparent 7px,   /* gap 开始 */
+    transparent 14px    /* gap 结束，总周期 20px */
+  );
+  background-position: -4px 0; /* 向左偏移 5px */
+}

@@ -31,6 +31,7 @@
             python3
             python311Packages.setuptools
             darwin.apple_sdk.frameworks.CoreText
+            turbo
           ];
         };
       }
